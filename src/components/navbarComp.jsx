@@ -12,7 +12,7 @@ const Navbar = () => {
             <span className='text-blue-500 font-bold text-[1.2rem]'>
             <Typewriter
             words={['|PORTFOLIO']}
-            loop={0}
+            loop={1}
             cursor
             cursorStyle='_'
           />

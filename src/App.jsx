@@ -2,12 +2,13 @@ import React from 'react'
 
 import Hero from './components/heroComp'
 import Navbar from './components/navbarComp'
+import AboutComp from './components/aboutComp'
 
 const App = () => {
   return (
     <div>
       <div className='flex items-center justify-center'>
-    <div className='border-2 border-red-500 h-[70vh] lg:h-[100vh] w-[90%] absolute text-white md:mt-[70vh] lg:mt-[100vh] mt-[70vh] overflow-auto'>
+    <div className=' h-[70vh] lg:h-[100vh] w-[90%] absolute text-white md:mt-[70vh] lg:mt-[100vh] mt-[70vh] overflow-auto'>
       {/* components here */}
       <Navbar></Navbar>
       <Hero></Hero>
@@ -18,6 +19,7 @@ const App = () => {
       
       />
     </div>
+    <AboutComp></AboutComp>
     </div>
   )
 }
