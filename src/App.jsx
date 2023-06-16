@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './components/navbar'
-import { motion } from "framer-motion"
+
 import Hero from './components/hero'
+import Navbar from './components/navbar'
 
 const App = () => {
   return (

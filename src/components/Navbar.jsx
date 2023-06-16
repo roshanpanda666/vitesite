@@ -1,6 +1,5 @@
 import React from 'react'
 import {Typewriter } from 'react-simple-typewriter'
-import { motion } from 'framer-motion'
 const Navbar = () => {
   return (
     <div>
