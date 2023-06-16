@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <div className='flex items-center justify-center'>
-    <div className='border-2 border-red-500 h-full w-[90%] absolute text-white md:mt-[140%] lg:mt-[50%] mt-[220%] overflow-auto'>
+    <div className='border-2 border-red-500 h-[70vh] lg:h-[100vh] w-[90%] absolute text-white md:mt-[70vh] lg:mt-[100vh] mt-[70vh] overflow-auto'>
       {/* components here */}
       <Navbar></Navbar>
       <Hero></Hero>
