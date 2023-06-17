@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <div className='flex items-center justify-center'>
     <div className=' h-[70vh] lg:h-[100vh] w-[90%] absolute text-white md:mt-[70vh] lg:mt-[100vh] mt-[70vh] overflow-auto'>
-      {/* components here */}
+      {/* hero components here */}
       <Navbar></Navbar>
       <Hero></Hero>
     </div>
@@ -19,6 +19,7 @@ const App = () => {
       
       />
     </div>
+    {/* about component here */}
     <AboutComp></AboutComp>
     </div>
   )

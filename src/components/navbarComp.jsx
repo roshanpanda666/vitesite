@@ -3,7 +3,7 @@ import {Typewriter } from 'react-simple-typewriter'
 const Navbar = () => {
   return (
     <div>
-      <div className='text-white flex '>
+      <div className='text-white flex mt-5 '>
         <div className='flex'>
             <div className='text-black text-[1.2rem] font-bold'>
                 SABYASACHI
@@ -28,7 +28,7 @@ const Navbar = () => {
         <i class="fa-solid fa-bars"></i>
         </div>
       
-                <div className='absolute lg:block hidden font-bold text-black text-[1.2rem]'>
+                <div className='absolute lg:block hidden font-bold text-black text-[1.2rem] z-50'>
                     <div className='flex gap-5'>
 
                     <div className='hover:text-blue-500 duration-500 hover:border-b-4 hover:border-b-blue-500'>ABOUT</div> 
