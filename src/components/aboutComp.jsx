@@ -44,7 +44,7 @@ const AboutComp = () => {
               </div>
             </div>
 
-            <div className=" w-[100%] lg:w-[70dvw] flex items-center lg:justify-center space-x-10 lg:flex-row flex-col lg:space-y-0 space-y-6">
+            <div className=" w-[100%] lg:w-[70dvw] flex items-center lg:justify-center space-x-10 lg:flex-row flex-col lg:space-y-0 space-y-6 ">
 
 
             {/* copy the about section of sunil */}
