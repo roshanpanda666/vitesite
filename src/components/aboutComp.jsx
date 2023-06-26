@@ -21,7 +21,7 @@ const AboutComp = () => {
 
 
         <div className="lg:w-[90%] w-[100%] ">
-          <div className="w-[100%] shadow-[0px_8px_156px_33px_#4299e1] flex justify-center items-center flex-row"></div>
+          <div className="w-[100%] blur-3xl shadow-[0px_8px_156px_33px_#4299e1] flex justify-center items-center flex-row"></div>
 
           {/* write your code down here */}
 
@@ -34,7 +34,7 @@ const AboutComp = () => {
                 
                 
               </div>
-              <div className=" h-[40%] w-full flex justify-center items-center text-center lg:text-start text-white mt-10">
+              <div className=" h-[40%] w-full flex justify-center items-center text-center lg:text-start text-gray-300 mt-10">
               Hello! I'm a skilled web developer and a passionate student
               with a strong focus on creating efficient and scalable solutions
               to solve real-world problems. My expertise lies in various areas 

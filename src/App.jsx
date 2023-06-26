@@ -3,6 +3,7 @@ import React from 'react'
 import Hero from './components/heroComp'
 import Navbar from './components/navbarComp'
 import AboutComp from './components/aboutComp'
+import Skills from './components/skillsComp'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
     </div>
     {/* about component here */}
     <AboutComp></AboutComp>
+    <Skills></Skills>
     </div>
   )
 }
