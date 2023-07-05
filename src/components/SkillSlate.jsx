@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-const SkillSlate = (props) => {
+const SkillSlate = () => {
   return (
     <>
         <div>

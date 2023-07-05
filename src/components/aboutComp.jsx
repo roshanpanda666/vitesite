@@ -52,7 +52,7 @@ const AboutComp = () => {
             <Tilt options={defaultOptions} style={{ height: 250, width: 250 }}>
             <motion.div className="h-60 w-52 bg-gradient-to-b from-sky-400 to-sky-200 rounded-lg flex flex-col justify-center items-center hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
             initial={{
-              x:100
+              x:50
             }}
             transition={{
               duration:1
@@ -74,7 +74,7 @@ const AboutComp = () => {
             <Tilt options={defaultOptions} style={{ height: 250, width: 250 }}>
             <motion.div className="h-60 w-52 bg-gradient-to-b from-sky-400 to-sky-200 rounded-lg flex flex-col justify-center items-center hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
             initial={{
-              x:100
+              x:50
             }}
             transition={{
               delay:0.3,
@@ -95,7 +95,7 @@ const AboutComp = () => {
             <Tilt options={defaultOptions} style={{ height: 250, width: 250 }}>
             <motion.div className="h-60 w-52 bg-gradient-to-b from-sky-400 to-sky-200 rounded-lg flex flex-col justify-center items-center hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
             initial={{
-              x:100
+              x:50
             }}
             transition={{
               duration:1,
@@ -116,7 +116,7 @@ const AboutComp = () => {
             <Tilt options={defaultOptions} style={{ height: 250, width: 250 }}>
             <motion.div className="h-60 w-52 bg-gradient-to-b from-sky-400 to-sky-200 rounded-lg flex flex-col justify-center items-center hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
             initial={{
-              x:100
+              x:50
             }}
             transition={{
               duration:1,
