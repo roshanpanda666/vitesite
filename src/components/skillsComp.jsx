@@ -5,7 +5,7 @@ const Skills = () => {
     <>
       <div className=' flex justify-center items-center bg-[rgb(14,25,33)] flex-col'>
         <div className="w-[100%] blur-3xl shadow-[0px_8px_156px_33px_#4299e1] flex justify-center items-center flex-row"></div>
-        <div className='font-bold text-5xl text-white mt-10'>
+        <div className='font-bold text-5xl text-white mt-10 '>
             Skills
         </div>
         <div className='mt-7 flex lg:flex-col flex-row lg:gap-8 gap-10'>

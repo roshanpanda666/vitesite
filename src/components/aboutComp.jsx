@@ -34,7 +34,7 @@ const AboutComp = () => {
                 
                 
               </div>
-              <div className=" h-[40%] w-full flex justify-center items-center text-center lg:text-start text-gray-300 mt-10">
+              <div className=" h-[40%] w-full flex justify-center items-center text-center text-gray-300 mt-10">
               Hello! I'm a skilled web developer and a passionate student
               with a strong focus on creating efficient and scalable solutions
               to solve real-world problems. My expertise lies in various areas 
