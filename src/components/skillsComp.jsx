@@ -9,9 +9,11 @@ const Skills = () => {
             Skills
         </div>
         <div className='mt-7 flex lg:flex-col flex-row lg:gap-8 gap-10'>
+            
             <div className='flex lg:flex-row flex-col lg:gap-x-5 '>
             <div>
-        <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40'
+        <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40 '
+        
 
         initial={{
             x:10,
@@ -30,8 +32,9 @@ const Skills = () => {
         
         />
 
+
         <div className='absolute'>
-            <motion.img src="tailwind.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move'
+            <motion.img src="tailwind.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(0,191,255)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
@@ -46,7 +49,7 @@ const Skills = () => {
                 opacity : 1,
             }}
             />
-            <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40 lg:-mt-64 -mt-44 lg:ml-8 ml-2'
+            <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40 lg:-mt-64 -mt-44 lg:ml-8 ml-2 '
             initial={{
                 opacity : 0,
 
@@ -64,7 +67,7 @@ const Skills = () => {
         </div>
       
             <div>
-        <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40'
+        <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40 '
 
         initial={{
             x:10,
@@ -84,7 +87,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-        <motion.img src="react.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move'
+        <motion.img src="react.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(30,144,255)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
@@ -139,7 +142,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-            <motion.img src="framermotion.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move'
+            <motion.img src="framermotion.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(186,85,211)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
@@ -173,7 +176,7 @@ const Skills = () => {
         </div>
       
         <div>
-        <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40'
+        <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40 '
 
         initial={{
             x:10,
@@ -193,7 +196,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-            <motion.img src="mongodb.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move'
+            <motion.img src="mongodb.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(0,255,0)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
@@ -249,7 +252,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-            <motion.img src="html.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move'
+            <motion.img src="html.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(255,255,255)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
@@ -303,7 +306,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-            <motion.img src="nextjs.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move'
+            <motion.img src="nextjs.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(105,105,105)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
@@ -357,7 +360,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-            <motion.img src="figma.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move'
+            <motion.img src="figma.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-movefilter drop-shadow-[0_5px_10px_rgb(138,43,226)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
@@ -391,7 +394,7 @@ const Skills = () => {
         </div>
       
         <div>
-        <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40'
+        <motion.img src="Regular_hexagon.svg.png" alt="" className='lg:h-60 h-40 '
 
         initial={{
             x:10,
@@ -411,7 +414,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-            <motion.img src="git.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move'
+            <motion.img src="git.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(255,255,255)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
