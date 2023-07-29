@@ -4,6 +4,7 @@ import Hero from './components/heroComp'
 import Navbar from './components/navbarComp'
 import AboutComp from './components/aboutComp'
 import Skills from './components/skillsComp'
+import Prompteng from './components/prompteng'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
     {/* about component here */}
     <AboutComp></AboutComp>
     <Skills></Skills>
+    <Prompteng></Prompteng>
     </div>
   )
 }

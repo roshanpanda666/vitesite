@@ -28,7 +28,7 @@ const AboutComp = () => {
           <div className="flex items-center justify-center flex-col">
             <div className=" w-[100%] lg:w-[50dvw] h-[50vh]  flex items-center lg:justify-center flex-col">
               <div className=" h-[10%] w-full flex items-center justify-center lg:justify-start text-white text-5xl font-bold flex-col">
-                <div className="absolute flex lg:item-start">
+                <div className="absolute flex lg:item-start filter drop-shadow-[0_5px_10px_rgb(0,191,255)]">
                 OVERVIEW
                 </div>
                 

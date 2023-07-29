@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
         </div>
         
-          <motion.div className=' text-[2.5rem] lg:text-[6rem] text-black font-bold lg:mt-0 mt-40'
+          <motion.div className=' text-[2.5rem] lg:text-[6rem] text-black font-bold lg:mt-0 mt-40 '
           initial={{
             opacity: 0,
             
