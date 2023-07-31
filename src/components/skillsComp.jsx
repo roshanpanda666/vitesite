@@ -306,7 +306,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-            <motion.img src="nextjs.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(105,105,105)]'
+            <motion.img src="next-js13.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(105,105,105)]'
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{

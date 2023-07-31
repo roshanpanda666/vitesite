@@ -25,7 +25,7 @@ const Prompteng = () => {
 
                     </Promptengcircle>
 
-                    <Promptengcircle thegif="midjourney.png">
+                    <Promptengcircle thegif="midblue.png">
 
                     </Promptengcircle>
 
