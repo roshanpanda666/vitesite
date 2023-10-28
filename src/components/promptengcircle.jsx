@@ -12,10 +12,11 @@ const Promptengcircle = (props) => {
         }}
         transition={{
             type:'spring',
-            stiffness:50
+            stiffness:20,
+            
         }}
         whileInView={{
-            rotate:360
+            rotateY:370
         }}
         >
             

@@ -5,6 +5,7 @@ import Navbar from './components/navbarComp'
 import AboutComp from './components/aboutComp'
 import Skills from './components/skillsComp'
 import Prompteng from './components/prompteng'
+import Projects_sec from './components/projects_sec'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
     <AboutComp></AboutComp>
     <Skills></Skills>
     <Prompteng></Prompteng>
+    <Projects_sec></Projects_sec>
     </div>
   )
 }
