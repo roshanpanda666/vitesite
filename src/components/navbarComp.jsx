@@ -49,14 +49,14 @@ const scrooloversproject=()=>{
         <div className='text-blue-500 text-3xl lg:hidden block'>
         <div className='flex flex-col justify-center items-end'>
         <div onClick={buttonhandle}>
-          <div className={`${noshow?'fa-solid fa-bars' :'fa-solid fa-x'}`}>
+          <div className={`${noshow?'fa-solid fa-x' :'fa-solid fa-bars'}`}>
           </div>
 
         
  
         </div>
        
-        <div className={`${noshow?'hidden':'block'}`}>
+        <div className={`${noshow?'block':'hidden'}`}>
             <div className='border-2 border-blue-500 h-36 w-64 fixed -ml-72' onClick={buttonhandle}>
             <div className='flex gap-[1px] flex-col text-center text-[1rem]'>
 
