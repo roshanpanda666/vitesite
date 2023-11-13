@@ -142,7 +142,7 @@ const Skills = () => {
         />
 
         <div className='absolute'>
-            <motion.img src="framermotion.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(186,85,211)]'
+            <motion.img src="firebase.png" alt="" className='absolute lg:-mt-48 lg:ml-14 -mt-32 ml-8 lg:h-32 h-24 cursor-move filter drop-shadow-[0_5px_10px_rgb(255,255,0)] '
              drag="x"
              dragConstraints={{ left: 10, right: 10 }}
             initial={{
