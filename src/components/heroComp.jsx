@@ -3,9 +3,15 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
+
+  const scrooloverview=()=>{
+        
+    window.scrollTo({top:1000,left:0,behavior:'smooth'})
+  
+}
   return (
     <div>
-      <div className='flex justify-center items-center h-[50vh] lg:h-[90vh] flex-col'>
+      <div className='flex justify-center items-center h-[50vh] lg:h-[90vh] flex-col z-50'>
         <div className='scale-50 absolute lg:w-[150rem] flex'>
           <div className='flex items-start justify-start lg:-mt-96  '>
           <motion.img src="cloud.png" alt="" className='lg:block hidden'
@@ -52,11 +58,13 @@ const Hero = () => {
             y:1
           }}
           > A
+          
             <Typewriter
             words={[' Developer ',' Designer',' Learner',' Tech Enthusiast']}
             loop={0}
             cursor
             cursorStyle='|'
+            
           />
           
           </motion.div>
@@ -101,13 +109,17 @@ const Hero = () => {
         transition={{
             duration:3
         }}
-        animate={{
-
-            y:[20,0,20,20,0,20,0,20,0,20,0,20,0,20]
+        whileInView={{
+          y: [30, 0, 30],
+          transition: {
+            duration: 1, // Adjust the duration as needed
+            repeat: Infinity, // Set repeat to Infinity for an infinite loop
+            repeatType: "mirror", // This will create a smooth back-and-forth animation
+          },
         }}
         
         >
-          <i class="fa-solid fa-arrow-down"></i>
+          <i class="fa-solid fa-arrow-down" onClick={scrooloverview}></i>
           </motion.div>
         </div>
         

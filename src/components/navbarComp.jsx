@@ -57,7 +57,7 @@ const scrooloversproject=()=>{
         </div>
        
         <div className={`${noshow?'block':'hidden'}`}>
-            <div className='border-2 border-blue-500 h-36 w-64 fixed -ml-72' onClick={buttonhandle}>
+            <div className='border-2 border-blue-500 h-44 w-64 fixed -ml-72' onClick={buttonhandle}>
             <div className='flex gap-[1px] flex-col text-center text-[1rem]'>
 
               <div className='duration-500 hover:border-b-4 hover:border-b-blue-500 text-black cursor-pointer'onClick={scrooloverview}>ABOUT</div> 
